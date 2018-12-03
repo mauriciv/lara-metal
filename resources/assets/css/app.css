@@ -1,0 +1,14 @@
+ @tailwind preflight;
+
+ @tailwind components;
+
+ .search-result {
+    @apply flex flex-col items-center justify-between p-3 border-b border-grey-darkest my-2 bg-grey-darkest rounded
+ }
+
+ .search-result-text {
+    @apply no-underline text-grey-light
+ }
+ 
+ @tailwind utilities;
+ 

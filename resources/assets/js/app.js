@@ -8,6 +8,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+window.events = new Vue();
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,7 +16,9 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('search-bar', require('./components/SearchBar.vue'));
+Vue.component('search-results', require('./components/SearchResults.vue'));
+Vue.component('album-search-result', require('./components/AlbumSearchResult.vue'));
 
 const app = new Vue({
     el: '#app'

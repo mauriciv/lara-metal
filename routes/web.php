@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+Route::get('/search', 'SearchController@show');
+Route::get('/bands/random', 'BandsController@random');
+Route::get('/bands/{band}', 'BandsController@show');
+Route::get('/albums/{album}', 'AlbumsController@show');
+
+//Route::get('/bands', 'BandsController@index')->name('bands');
