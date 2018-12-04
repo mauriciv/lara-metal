@@ -10,9 +10,11 @@
 
         @if ($band->albums->isEmpty() == false)
             <h2 class="text-grey-light">Albums</h2>
-            @foreach ($band->albums as $album)
-                <album-search-result :initial-album="{{$album}}"></album-search-result>
-            @endforeach
+            <div class="md:flex md:flex-wrap">
+                @foreach ($band->albums as $album)
+                    <album-search-result :initial-album="{{$album}}"></album-search-result>
+                @endforeach
+            </div>
         @endif
 
     </div>
