@@ -18,6 +18,7 @@ window.events = new Vue();
 
 Vue.component('search-bar', require('./components/SearchBar.vue'));
 Vue.component('search-results', require('./components/SearchResults.vue'));
+Vue.component('search-results-genres', require('./components/SearchResultGenres.vue'));
 Vue.component('album-search-result', require('./components/AlbumSearchResult.vue'));
 
 const app = new Vue({
