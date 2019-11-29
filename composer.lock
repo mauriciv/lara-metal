@@ -4081,16 +4081,16 @@
         },
         {
             "name": "symfony/thanks",
-            "version": "v1.0.5",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/thanks.git",
-                "reference": "c757ee0c9dcfcc0e9e30fbbbdcadeb9dcc9aaaf4"
+                "reference": "8632239bebee36bcb46f4de07541595dd4c9b1af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/thanks/zipball/c757ee0c9dcfcc0e9e30fbbbdcadeb9dcc9aaaf4",
-                "reference": "c757ee0c9dcfcc0e9e30fbbbdcadeb9dcc9aaaf4",
+                "url": "https://api.github.com/repos/symfony/thanks/zipball/8632239bebee36bcb46f4de07541595dd4c9b1af",
+                "reference": "8632239bebee36bcb46f4de07541595dd4c9b1af",
                 "shasum": ""
             },
             "require": {
@@ -4100,7 +4100,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.2-dev"
                 },
                 "class": "Symfony\\Thanks\\Thanks"
             },
@@ -4119,8 +4119,8 @@
                     "email": "p@tchwork.com"
                 }
             ],
-            "description": "Give thanks (in the form of a GitHub ⭐) to your fellow PHP package maintainers (not limited to Symfony components)!",
-            "time": "2018-01-26T10:44:34+00:00"
+            "description": "Encourages sending ⭐ and 💵 to fellow PHP package maintainers (not limited to Symfony components)!",
+            "time": "2019-11-29T08:50:33+00:00"
         },
         {
             "name": "theseer/tokenizer",
